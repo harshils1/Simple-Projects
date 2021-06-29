@@ -1,0 +1,10 @@
+user1 = int(input("Enter 1 for rock, 2 for paper, 3 for scissors: "))
+
+user2 = int(input("Enter 1 for rock, 2 for paper, 3 for scissors: "))
+
+if(user1 == user2):
+  print("It is a tie")
+elif((user1 == 1 and user2 == 2) or ((user1 == 2 and user2 == 3)) or (user1 == 3 and user2 == 1)):
+  print("user 2 wins")
+else:
+  print("user 1 wins")
